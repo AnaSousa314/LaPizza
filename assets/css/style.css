@@ -1,0 +1,20 @@
+:root{
+    --green: #5c913b;
+    --red: #cf3031;
+    --yellow: #ffa200;
+    --pink: #ffd4c9;
+
+    --white: #fef6f4;
+    --gray: #616161;
+    --gray-200: #2e2e2e;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+}
