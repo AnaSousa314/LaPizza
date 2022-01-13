@@ -46,7 +46,6 @@ header h1 .z2{
 	color: var(--green);
 }
 
-
 .container{
     max-width: 1120px;
 }
@@ -56,8 +55,55 @@ header h1 .z2{
     justify-content: center;
 }
 
+.plant{
+	position: relative;
+	z-index: 2;
+}
+
+.plant img{
+	width: 100px;
+	height: 119px;
+}
+
+.fish{
+	position: absolute;
+	z-index: 3;
+}
+
+.fish img{
+	width: 100px;
+}
+
+.mashroom{
+position: absolute;
+z-index: 3;
+}
+
+.mashroom img{
+	width: 50px;
+	height: 43px;
+}
+
+.pepper{
+	position: absolute;
+}
+
+.pepper img{
+	width: 133px;
+	height: 90px;
+}
+
+.leaf{
+	position: absolute;
+}
+
+.leaf img{
+	width: 60px;
+	height: 97px;
+}
+
 .mais{
-    margin-top: 141px;
+    /* margin-top: px; */
 }
 
 .mais h1{
@@ -199,11 +245,109 @@ header h1 .z2{
 		top: 210px;
 		left: 512px;
 	}
+
+	.plant{
+		bottom: 50px;
+		right: 40px;
+	}
+	
+	.plant img{
+		width: 100px;
+		height: 119px;
+	}
+	
+	.fish{
+		left: 382px;
+		top: 590px;
+	}
+	
+	.fish img{
+		width: 100px;
+	}
+	
+	.mashroom{
+	left: 1150px;
+	top: 587px;
+	}
+	
+	.mashroom img{
+		width: 50px;
+		height: 43px;
+	}
+	
+	.pepper{
+		left: 19px;
+		top: 1030px
+	}
+	
+	.pepper img{
+		width: 133px;
+		height: 90px;
+	}
+	
+	.leaf{
+		left: 1210px;
+		top: 820px;
+	}
+	
+	.leaf img{
+		width: 60px;
+		height: 97px;
+	}
 }
 
 @media(min-width: 1440px){
 	header h1{
 		top: 200px;
 		left: 720px;
+	}
+
+	.plant{
+		bottom: 40px;
+		right: 40px;
+	}
+	
+	.plant img{
+		width: 100px;
+		height: 119px;
+	}
+	
+	.fish{
+		left: 642px;
+		top: 590px;
+	}
+	
+	.fish img{
+		width: 100px;
+	}
+	
+	.mashroom{
+	left: 1450px;
+	top: 587px;
+	}
+	
+	.mashroom img{
+		width: 50px;
+		height: 43px;
+	}
+	
+	.pepper{
+		left: 200px;
+		top: 1030px
+	}
+	
+	.pepper img{
+		width: 133px;
+		height: 90px;
+	}
+	
+	.leaf{
+		left: 1490px;
+		top: 820px;
+	}
+	
+	.leaf img{
+		width: 60px;
+		height: 97px;
 	}
 }
