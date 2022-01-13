@@ -7,6 +7,8 @@
     --white: #fef6f4;
     --gray: #616161;
     --gray-200: #2e2e2e;
+
+		--about: #fcfcfc;
 }
 
 *{
@@ -34,15 +36,15 @@ header h1{
 	color: #fff;
 }
 
-header h1 .i{
+.i{
 	color: var(--yellow);
 }
 
-header h1 .z1{
+.z1{
 	color: var(--red);
 }
 
-header h1 .z2{
+.z2{
 	color: var(--green);
 }
 
@@ -102,9 +104,39 @@ z-index: 3;
 	height: 97px;
 }
 
-.mais{
-    /* margin-top: px; */
+.tomatoes{
+	position: absolute;
+	z-index: 3;
 }
+
+.tomatoes img{
+	width: 150px;
+	height: 133px;
+}
+
+.pizza{
+	position: absolute;
+	z-index: 3;
+}
+
+.pizza img{
+	width: 150px;
+	height: 150px;
+}
+
+.pizza2{
+	position: absolute;
+	z-index: 3;
+}
+
+/* .pizza2 img{
+	width: 150px;
+	height: 150px;
+} */
+
+/* .mais{
+    margin-top: px;
+} */
 
 .mais h1{
     font-size: 36px;
@@ -133,6 +165,16 @@ z-index: 3;
 
 
 }
+
+.mais .cards .card:first-of-type{
+	margin-left: 0px;
+} 
+
+.mais .cards .card:last-of-type{
+	margin-right: 0px;
+} 
+
+
 
 .mais .cards .card .card-data{
    text-align: center;
@@ -239,6 +281,76 @@ z-index: 3;
 
 }
 
+.mt{
+	margin-top: 135px;
+	background-color: var(--about);
+}
+
+.about{
+	height: 658px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* margin-top: 135px; */
+}
+
+
+.about div img{
+	width: 448px;
+	height: 501px;
+
+	margin-top: 108px;
+}
+
+.about .about-data{
+	width: 458;
+	height: 314px;
+
+	display: flex;
+	align-items: center;
+
+	margin-left: 96px;
+	margin-right: 118px;
+}
+
+.about .about-data div h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.about .about-data div p{
+	margin-top: 24px;
+	font-size: 16px;
+	font-weight: 300px;
+	color: var(--gray-200);
+}
+
+.about .about-data div a{
+	width: 148px;
+	height: 39px;
+	margin-top: 24px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-weight: 600;
+	color: var(--gray-200);
+	background-color: var(--yellow);
+
+	border-radius: 25px;
+
+	text-decoration: none;
+}
+
+.reserved{
+	font-size: 14px;
+	font-weight: 400;
+
+	height: 50px;
+
+	align-items: center;
+}
 
 @media(min-width: 1024px){
 	header h1{
@@ -293,6 +405,21 @@ z-index: 3;
 	.leaf img{
 		width: 60px;
 		height: 97px;
+	}
+
+	.tomatoes{
+		left: 1140px;
+		top: 1100px;
+	}
+
+	.pizza{
+		left: 50px;
+		top: 1260px;
+	}
+
+	.pizza2{
+		left: 1100px;
+		top: 1450px;
 	}
 }
 
