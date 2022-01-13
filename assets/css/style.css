@@ -477,4 +477,19 @@ z-index: 3;
 		width: 60px;
 		height: 97px;
 	}
+
+	.tomatoes{
+		left: 1400px;
+		top: 1100px;
+	}
+
+	.pizza{
+		left: 320px;
+		top: 1260px;
+	}
+
+	.pizza2{
+		left: 1400px;
+		top: 1450px;
+	}
 }
